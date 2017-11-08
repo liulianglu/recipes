@@ -1,0 +1,2 @@
+list.o: list.c list.h
+test_list.o: test_list.c list.h

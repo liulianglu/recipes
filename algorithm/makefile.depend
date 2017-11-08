@@ -1,0 +1,11 @@
+binary_tree_circulation.o: binary_tree_circulation.cpp binary_tree.h
+binary_tree_recursion.o: binary_tree_recursion.cpp binary_tree.h
+callback.o: callback.cpp binary_tree.h
+circulation.o: circulation.cpp algorithm.h merge_ordered.h
+recursion.o: recursion.cpp algorithm.h
+test_binary_tree.o: test_binary_tree.cpp binary_tree.h
+test.o: test.cpp algorithm.h merge_ordered.h
+test_rbtree.o: test_rbtree.cpp rb_tree.h
+binarySearch.o: binarySearch.c
+binary_tree.o: binary_tree.c binary_tree.h
+rb_tree.o: rb_tree.c rb_tree.h

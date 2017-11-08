@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+40obj	offer/Makefile	/^40obj=testcase.o 40_1.o$/;"	m
+BLACK	rb_tree.h	12;"	d
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -fkeep-inline-functions $/;"	m
+CXX	Makefile	/^CXX=g++$/;"	m
+ListNode	list/list.h	/^typedef struct ListNode$/;"	s
+Num	test.cpp	17;"	d	file:
+Print	circulation.cpp	/^void Print(int* v, int begin, int end)$/;"	f
+Print	recursion.cpp	/^void Print(int* v, int begin, int end)$/;"	f
+RED	rb_tree.h	11;"	d
+_ALGORITHM_H	algorithm.h	10;"	d
+_BINARY_TREE_H	binary_tree.h	9;"	d
+_LIST_H	list/list.h	9;"	d
+_OFFER_H	offer/offer.h	9;"	d
+_RB_TREE_H	rb_tree.h	9;"	d
+binarySearch	binarySearch.c	/^int binarySearch(int* src,int begin,  int end, int des)$/;"	f
+binary_search	circulation.cpp	/^int binary_search(int* des, int begin, int end, int key)$/;"	f
+binary_search	recursion.cpp	/^int binary_search(int* src,int begin,  int end, int des)$/;"	f
+binary_tree	binary_tree.h	/^typedef struct binary_tree$/;"	s
+binary_tree	binary_tree.h	/^}binary_tree;$/;"	t	typeref:struct:binary_tree
+black	rb_tree.h	/^    void black(){ this->color = BLACK; }$/;"	f	struct:rbtree_node
+call_sort	test.cpp	/^void call_sort(int*v, int begin, int end, char key)$/;"	f
+color	rb_tree.h	/^    char                color;$/;"	m	struct:rbtree_node
+create_binary_sort_tree	test_binary_tree.cpp	/^binary_tree* create_binary_sort_tree(int* src, int begin, int end)$/;"	f
+create_node	test_binary_tree.cpp	/^binary_tree* create_node(int v)$/;"	f
+create_rbtree	rb_tree.c	/^rbtree* create_rbtree(int* szkey, int size)$/;"	f
+create_rbtree_node	rb_tree.c	/^rbtree_node* create_rbtree_node(int key)$/;"	f
+data	rb_tree.h	/^    char                data[3];$/;"	m	struct:rbtree_node
+destroy_rbtree_node	rb_tree.c	/^char destroy_rbtree_node(rbtree* T, rbtree_node* node)$/;"	f
+end	offer/testcase.cpp	13;"	d	file:
+end	test.cpp	15;"	d	file:
+end	test_binary_tree.cpp	13;"	d	file:
+end_macro	algorithm.h	12;"	d
+get_least_numbers	offer/40_1.cpp	/^void get_least_numbers(int* data, int begin, int end,$/;"	f
+get_least_numbers	offer/40_2.cpp	/^void get_least_numbers(int* data, int begin, int end, int k,$/;"	f
+heap_adjust	circulation.cpp	/^int heap_adjust(int* v, int begin, int end)$/;"	f
+heap_adjust	recursion.cpp	/^int heap_adjust(int *v, int ipending, int end)$/;"	f
+heap_sort	circulation.cpp	/^int heap_sort(int* v, int begin, int end)$/;"	f
+heap_sort	recursion.cpp	/^int heap_sort(int* v, int begin, int end)$/;"	f
+insert	rb_tree.h	/^    rbtree_insert_pt    insert;$/;"	m	struct:rbtree
+insert_binary_tree	test_binary_tree.cpp	/^char insert_binary_tree(binary_tree* *root, binary_tree* node)$/;"	f
+isBlack	rb_tree.h	/^    char isBlack(){ return this->color == BLACK; }$/;"	f	struct:rbtree_node
+isRed	rb_tree.h	/^    char isRed() { return this->color == RED; }$/;"	f	struct:rbtree_node
+key	rb_tree.h	/^    unsigned int        key;               $/;"	m	struct:rbtree_node
+left	binary_tree.h	/^    struct binary_tree* left;$/;"	m	struct:binary_tree	typeref:struct:binary_tree::binary_tree
+left	rb_tree.h	/^    struct rbtree_node* left;$/;"	m	struct:rbtree_node	typeref:struct:rbtree_node::rbtree_node
+mPredicate	recursion.cpp	/^char mPredicate(int a, int b)$/;"	f
+main	binarySearch.c	/^int main(int argc, char *argv[])$/;"	f
+main	offer/testcase.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	test.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	test_binary_tree.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	test_rbtree.cpp	/^int main(int argc, char *argv[])$/;"	f
+maximum	rb_tree.h	/^    rbtree_node* maximum(rbtree_node* x)$/;"	f	struct:rbtree
+merge	circulation.cpp	/^int merge(int*v, int begin, int middle, int end, int* adjuvant)$/;"	f
+merge	recursion.cpp	/^int merge(int*v, int begin, int middle, int end, int* adjuvant)$/;"	f
+merge_ordered	merge_ordered.h	/^void merge_ordered(T* des, $/;"	f
+merge_sort	circulation.cpp	/^int merge_sort(int* v, int begin, int end)$/;"	f
+merge_sort	recursion.cpp	/^int merge_sort(int* v, int begin, int end)      \/\/不能在递归中分配内存,使用C++方式编译就有重载$/;"	f
+merge_sort	recursion.cpp	/^int merge_sort(int* v, int begin, int end, int* adjuvant)$/;"	f
+middle_order	binary_tree_circulation.cpp	/^binary_tree* middle_order(binary_tree* r)$/;"	f
+middle_order	binary_tree_recursion.cpp	/^binary_tree* middle_order(binary_tree* t)$/;"	f
+middle_order	rb_tree.c	/^char middle_order(rbtree* T, rbtree_node* node, $/;"	f
+middle_precursor	binary_tree.c	/^binary_tree* middle_precursor(binary_tree* t)$/;"	f
+minimum	rb_tree.h	/^    rbtree_node* minimum(rbtree_node* x)$/;"	f	struct:rbtree
+next	list/list.h	/^    struct ListNode*    next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+num	test.cpp	16;"	d	file:
+num	test_rbtree.cpp	12;"	d	file:
+num_macro	algorithm.h	13;"	d
+parent	rb_tree.h	/^    struct rbtree_node*     parent;$/;"	m	struct:rbtree_node	typeref:struct:rbtree_node::rbtree_node
+partion	circulation.cpp	/^int partion(int* v, int begin, int end)$/;"	f
+partion	offer/40_1.cpp	/^int partion(int* v, int begin, int end)$/;"	f
+post_order	binary_tree_circulation.cpp	/^binary_tree* post_order(binary_tree* r)$/;"	f
+post_order	binary_tree_recursion.cpp	/^binary_tree* post_order(binary_tree* t)$/;"	f
+post_order	rb_tree.c	/^char post_order(rbtree* T, rbtree_node* node, $/;"	f
+prarent	binary_tree.h	/^    struct binary_tree* prarent;   \/\/没有此变量，如何找到后继？$/;"	m	struct:binary_tree	typeref:struct:binary_tree::binary_tree
+pre_order	binary_tree_circulation.cpp	/^binary_tree* pre_order(binary_tree* r)$/;"	f
+pre_order	binary_tree_recursion.cpp	/^binary_tree* pre_order(binary_tree* t)$/;"	f
+predicate	test.cpp	/^char predicate(int front, int rear)$/;"	f
+print	offer/testcase.cpp	/^void print(int* v, int begin, int end)$/;"	f
+print	test.cpp	/^void print(int* v, int begin, int end)$/;"	f
+print	test_rbtree.cpp	/^char print(rbtree_node* node)$/;"	f
+quick_sort	circulation.cpp	/^int quick_sort(int* v, int begin, int end)$/;"	f
+quick_sort	recursion.cpp	/^int quick_sort(int* des, int begin, int end)$/;"	f
+rbtree	rb_tree.h	/^typedef struct rbtree$/;"	s
+rbtree	rb_tree.h	/^}rbtree;$/;"	t	typeref:struct:rbtree
+rbtree_insert	rb_tree.c	/^void rbtree_insert(rbtree* T, rbtree_node* node)$/;"	f
+rbtree_insert_pt	rb_tree.h	/^typedef void (*rbtree_insert_pt) (rbtree_node* root, $/;"	t
+rbtree_left_rotate	rb_tree.c	/^void rbtree_left_rotate(rbtree* T, rbtree_node* x)$/;"	f
+rbtree_node	rb_tree.h	/^typedef struct rbtree_node$/;"	s
+rbtree_node	rb_tree.h	/^}rbtree_node;$/;"	t	typeref:struct:rbtree_node
+rbtree_obj	Makefile	/^rbtree_obj=test_rbtree.o rb_tree.o$/;"	m
+rbtree_right_rotate	rb_tree.c	/^void rbtree_right_rotate(rbtree* T, rbtree_node* y)$/;"	f
+red	rb_tree.h	/^    void red()  { this->color = RED; }$/;"	f	struct:rbtree_node
+right	binary_tree.h	/^    struct binary_tree* right;$/;"	m	struct:binary_tree	typeref:struct:binary_tree::binary_tree
+right	rb_tree.h	/^    struct rbtree_node*     right;$/;"	m	struct:rbtree_node	typeref:struct:rbtree_node::rbtree_node
+root	rb_tree.h	/^    rbtree_node*        root;$/;"	m	struct:rbtree
+sentinel	rb_tree.h	/^    rbtree_node*        sentinel;$/;"	m	struct:rbtree
+test40	offer/testcase.cpp	/^void test40()$/;"	f
+test_binary_search	test.cpp	/^void test_binary_search()$/;"	f
+test_quick_sort	test.cpp	/^void test_quick_sort()$/;"	f
+test_sort	test.cpp	/^void test_sort(char key)$/;"	f
+test_tree_obj	Makefile	/^test_tree_obj=test_binary_tree.o binary_tree_circulation.o$/;"	m
+tree_recursion_obj	Makefile	/^tree_recursion_obj=test_binary_tree.o binary_tree_recursion.o $/;"	m
+value	binary_tree.h	/^    int value;$/;"	m	struct:binary_tree
+value	list/list.h	/^    int                 value;$/;"	m	struct:ListNode
+visit	binary_tree_circulation.cpp	/^void visit(binary_tree* node)$/;"	f
+visit	binary_tree_recursion.cpp	/^void visit(binary_tree* t)$/;"	f
+visit	callback.cpp	/^void visit(binary_tree* t)$/;"	f
