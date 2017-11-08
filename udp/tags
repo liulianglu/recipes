@@ -1,0 +1,365 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AE_ALL_EVENTS	kudp/ae.h	49;"	d
+AE_DELETED_EVENT_ID	kudp/ae.h	53;"	d
+AE_DONT_WAIT	kudp/ae.h	50;"	d
+AE_ERR	kudp/ae.h	39;"	d
+AE_FILE_EVENTS	kudp/ae.h	47;"	d
+AE_NOMORE	kudp/ae.h	52;"	d
+AE_NONE	kudp/ae.h	42;"	d
+AE_NOTUSED	kudp/ae.h	56;"	d
+AE_OK	kudp/ae.h	38;"	d
+AE_READABLE	kudp/ae.h	43;"	d
+AE_TIME_EVENTS	kudp/ae.h	48;"	d
+AE_WRITABLE	kudp/ae.h	44;"	d
+ANET_ERR	kudp/kudp_socket.h	17;"	d
+ANET_OK	kudp/kudp_socket.h	16;"	d
+BINDADDR_MAX	kudp/kudp.h	17;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g$/;"	m
+HAVE_EPOLL	kudp/ae.c	49;"	d	file:
+ICONTAINEROF	kudp/ikcp.h	156;"	d
+IINT16	kudp/ikcp.h	/^typedef short IINT16;$/;"	t
+IINT32	kudp/ikcp.h	/^typedef ISTDINT32 IINT32;$/;"	t
+IINT64	kudp/ikcp.h	/^typedef __int64 IINT64;$/;"	t
+IINT64	kudp/ikcp.h	/^typedef long long IINT64;$/;"	t
+IINT8	kudp/ikcp.h	/^typedef char IINT8;$/;"	t
+IKCPCB	kudp/ikcp.h	/^struct IKCPCB$/;"	s
+IKCPSEG	kudp/ikcp.cpp	/^typedef struct IKCPSEG IKCPSEG;$/;"	t	typeref:struct:IKCPSEG	file:
+IKCPSEG	kudp/ikcp.h	/^struct IKCPSEG$/;"	s
+IKCP_ACK_FAST	kudp/ikcp.cpp	/^const IUINT32 IKCP_ACK_FAST	= 3;$/;"	v
+IKCP_ASK_SEND	kudp/ikcp.cpp	/^const IUINT32 IKCP_ASK_SEND = 1;		\/\/ need to send IKCP_CMD_WASK$/;"	v
+IKCP_ASK_TELL	kudp/ikcp.cpp	/^const IUINT32 IKCP_ASK_TELL = 2;		\/\/ need to send IKCP_CMD_WINS$/;"	v
+IKCP_CMD_ACK	kudp/ikcp.cpp	/^const IUINT32 IKCP_CMD_ACK  = 82;		\/\/ cmd: ack$/;"	v
+IKCP_CMD_PUSH	kudp/ikcp.cpp	/^const IUINT32 IKCP_CMD_PUSH = 81;		\/\/ cmd: push data$/;"	v
+IKCP_CMD_WASK	kudp/ikcp.cpp	/^const IUINT32 IKCP_CMD_WASK = 83;		\/\/ cmd: window probe (ask)$/;"	v
+IKCP_CMD_WINS	kudp/ikcp.cpp	/^const IUINT32 IKCP_CMD_WINS = 84;		\/\/ cmd: window size (tell)$/;"	v
+IKCP_DEADLINK	kudp/ikcp.cpp	/^const IUINT32 IKCP_DEADLINK = 20;$/;"	v
+IKCP_INTERVAL	kudp/ikcp.cpp	/^const IUINT32 IKCP_INTERVAL	= 100;$/;"	v
+IKCP_LOG_INPUT	kudp/ikcp.h	311;"	d
+IKCP_LOG_IN_ACK	kudp/ikcp.h	315;"	d
+IKCP_LOG_IN_DATA	kudp/ikcp.h	314;"	d
+IKCP_LOG_IN_PROBE	kudp/ikcp.h	316;"	d
+IKCP_LOG_IN_WINS	kudp/ikcp.h	317;"	d
+IKCP_LOG_OUTPUT	kudp/ikcp.h	310;"	d
+IKCP_LOG_OUT_ACK	kudp/ikcp.h	319;"	d
+IKCP_LOG_OUT_DATA	kudp/ikcp.h	318;"	d
+IKCP_LOG_OUT_PROBE	kudp/ikcp.h	320;"	d
+IKCP_LOG_OUT_WINS	kudp/ikcp.h	321;"	d
+IKCP_LOG_RECV	kudp/ikcp.h	313;"	d
+IKCP_LOG_SEND	kudp/ikcp.h	312;"	d
+IKCP_MTU_DEF	kudp/ikcp.cpp	/^const IUINT32 IKCP_MTU_DEF = 1400;$/;"	v
+IKCP_OVERHEAD	kudp/ikcp.cpp	/^const IUINT32 IKCP_OVERHEAD = 24;$/;"	v
+IKCP_PROBE_INIT	kudp/ikcp.cpp	/^const IUINT32 IKCP_PROBE_INIT = 7000;		\/\/ 7 secs to probe window size$/;"	v
+IKCP_PROBE_LIMIT	kudp/ikcp.cpp	/^const IUINT32 IKCP_PROBE_LIMIT = 120000;	\/\/ up to 120 secs to probe window$/;"	v
+IKCP_RTO_DEF	kudp/ikcp.cpp	/^const IUINT32 IKCP_RTO_DEF = 200;$/;"	v
+IKCP_RTO_MAX	kudp/ikcp.cpp	/^const IUINT32 IKCP_RTO_MAX = 60000;$/;"	v
+IKCP_RTO_MIN	kudp/ikcp.cpp	/^const IUINT32 IKCP_RTO_MIN = 100;		\/\/ normal min rto$/;"	v
+IKCP_RTO_NDL	kudp/ikcp.cpp	/^const IUINT32 IKCP_RTO_NDL = 30;		\/\/ no delay min rto$/;"	v
+IKCP_THRESH_INIT	kudp/ikcp.cpp	/^const IUINT32 IKCP_THRESH_INIT = 2;$/;"	v
+IKCP_THRESH_MIN	kudp/ikcp.cpp	/^const IUINT32 IKCP_THRESH_MIN = 2;$/;"	v
+IKCP_WND_RCV	kudp/ikcp.cpp	/^const IUINT32 IKCP_WND_RCV = 32;$/;"	v
+IKCP_WND_SND	kudp/ikcp.cpp	/^const IUINT32 IKCP_WND_SND = 32;$/;"	v
+INLINE	kudp/ikcp.h	114;"	d
+INLINE	kudp/ikcp.h	116;"	d
+INLINE	kudp/ikcp.h	120;"	d
+INLINE	kudp/ikcp.h	122;"	d
+IOFFSETOF	kudp/ikcp.h	154;"	d
+IQUEUEHEAD	kudp/ikcp.h	/^struct IQUEUEHEAD {$/;"	s
+IQUEUE_ADD	kudp/ikcp.h	165;"	d
+IQUEUE_ADD_TAIL	kudp/ikcp.h	169;"	d
+IQUEUE_DEL	kudp/ikcp.h	175;"	d
+IQUEUE_DEL_BETWEEN	kudp/ikcp.h	173;"	d
+IQUEUE_DEL_INIT	kudp/ikcp.h	180;"	d
+IQUEUE_ENTRY	kudp/ikcp.h	159;"	d
+IQUEUE_FOREACH	kudp/ikcp.h	193;"	d
+IQUEUE_HEAD	kudp/ikcp.h	148;"	d
+IQUEUE_HEAD_INIT	kudp/ikcp.h	147;"	d
+IQUEUE_INIT	kudp/ikcp.h	151;"	d
+IQUEUE_IS_EMPTY	kudp/ikcp.h	183;"	d
+ISTDINT32	kudp/ikcp.h	/^	typedef SInt32 ISTDINT32;$/;"	t
+ISTDINT32	kudp/ikcp.h	/^	typedef __int32 ISTDINT32;$/;"	t
+ISTDINT32	kudp/ikcp.h	/^	typedef int ISTDINT32;$/;"	t
+ISTDINT32	kudp/ikcp.h	/^	typedef int32_t ISTDINT32;$/;"	t
+ISTDINT32	kudp/ikcp.h	/^	typedef long ISTDINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef UInt32 ISTDUINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef u_int32_t ISTDUINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef uint32_t ISTDUINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef unsigned __int32 ISTDUINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef unsigned int ISTDUINT32;$/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef unsigned long ISTDUINT32; $/;"	t
+ISTDUINT32	kudp/ikcp.h	/^	typedef unsigned long ISTDUINT32;$/;"	t
+IUINT16	kudp/ikcp.h	/^typedef unsigned short IUINT16;$/;"	t
+IUINT32	kudp/ikcp.h	/^typedef ISTDUINT32 IUINT32;$/;"	t
+IUINT64	kudp/ikcp.h	/^typedef unsigned __int64 IUINT64;$/;"	t
+IUINT64	kudp/ikcp.h	/^typedef unsigned long long IUINT64;$/;"	t
+IUINT8	kudp/ikcp.h	/^typedef unsigned char IUINT8;$/;"	t
+IWORDS_BIG_ENDIAN	kudp/ikcp.h	233;"	d
+IWORDS_BIG_ENDIAN	kudp/ikcp.h	243;"	d
+IWORDS_BIG_ENDIAN	kudp/ikcp.h	247;"	d
+KUDP_TCP	kudp/kudp_socket.h	14;"	d
+KUDP_UDP	kudp/kudp_socket.h	13;"	d
+UNUSED	kudp/kudp.c	13;"	d	file:
+_KUDP_H	kudp/kudp.h	9;"	d
+_KUDP_SIMPLE_H	simple/kudp_simple.h	9;"	d
+_KUDP_SOCKET_H	kudp/kudp_socket.h	9;"	d
+__AE_H__	kudp/ae.h	34;"	d
+__IINT16_DEFINED	kudp/ikcp.h	78;"	d
+__IINT32_DEFINED	kudp/ikcp.h	83;"	d
+__IINT64_DEFINED	kudp/ikcp.h	93;"	d
+__IINT8_DEFINED	kudp/ikcp.h	63;"	d
+__IKCP_H__	kudp/ikcp.h	13;"	d
+__INTEGER_32_BITS__	kudp/ikcp.h	24;"	d
+__IQUEUE_DEF__	kudp/ikcp.h	135;"	d
+__IUINT16_DEFINED	kudp/ikcp.h	73;"	d
+__IUINT32_DEFINED	kudp/ikcp.h	88;"	d
+__IUINT64_DEFINED	kudp/ikcp.h	102;"	d
+__IUINT8_DEFINED	kudp/ikcp.h	68;"	d
+__iqueue_splice	kudp/ikcp.h	205;"	d
+_anetUdpServer	kudp/kudp_socket.c	/^int _anetUdpServer(const char* bindaddr, int port, int af)$/;"	f
+_ibound_	kudp/ikcp.cpp	/^static inline IUINT32 _ibound_(IUINT32 lower, IUINT32 middle, IUINT32 upper) $/;"	f	file:
+_imax_	kudp/ikcp.cpp	/^static inline IUINT32 _imax_(IUINT32 a, IUINT32 b) {$/;"	f	file:
+_imin_	kudp/ikcp.cpp	/^static inline IUINT32 _imin_(IUINT32 a, IUINT32 b) {$/;"	f	file:
+_itimediff	kudp/ikcp.cpp	/^static inline long _itimediff(IUINT32 later, IUINT32 earlier) $/;"	f	file:
+acceptKcpHandler	kudp/kudp.c	/^int acceptKcpHandler(aeEventLoop *el, int fd, void *privdata, int mask)$/;"	f
+acceptKcpHandler	kudp/kudp_socket.c	/^int acceptKcpHandler(aeEventLoop *el, int fd, void *privdata, int mask)$/;"	f
+ackblock	kudp/ikcp.h	/^	IUINT32 ackblock;$/;"	m	struct:IKCPCB
+ackcount	kudp/ikcp.h	/^	IUINT32 ackcount;$/;"	m	struct:IKCPCB
+acklist	kudp/ikcp.h	/^	IUINT32 *acklist;$/;"	m	struct:IKCPCB
+addr_len	kudp/kudp_socket.h	/^    int                  addr_len; $/;"	m	struct:kudpSocket
+aeAddMillisecondsToNow	kudp/ae.c	/^static void aeAddMillisecondsToNow(long long milliseconds, long *sec, long *ms) {$/;"	f	file:
+aeApiAddEvent	kudp/ae_epoll.c	/^static int aeApiAddEvent(aeEventLoop *eventLoop, int fd, int mask) {$/;"	f	file:
+aeApiCreate	kudp/ae_epoll.c	/^static int aeApiCreate(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiDelEvent	kudp/ae_epoll.c	/^static void aeApiDelEvent(aeEventLoop *eventLoop, int fd, int delmask) {$/;"	f	file:
+aeApiFree	kudp/ae_epoll.c	/^static void aeApiFree(aeEventLoop *eventLoop) {$/;"	f	file:
+aeApiName	kudp/ae_epoll.c	/^static char *aeApiName(void) {$/;"	f	file:
+aeApiPoll	kudp/ae_epoll.c	/^static int aeApiPoll(aeEventLoop *eventLoop, struct timeval *tvp) {$/;"	f	file:
+aeApiResize	kudp/ae_epoll.c	/^static int aeApiResize(aeEventLoop *eventLoop, int setsize) {$/;"	f	file:
+aeApiState	kudp/ae_epoll.c	/^typedef struct aeApiState {$/;"	s	file:
+aeApiState	kudp/ae_epoll.c	/^} aeApiState;$/;"	t	typeref:struct:aeApiState	file:
+aeBeforeSleepProc	kudp/ae.h	/^typedef void aeBeforeSleepProc(struct aeEventLoop *eventLoop);$/;"	t
+aeCreateEventLoop	kudp/ae.c	/^aeEventLoop *aeCreateEventLoop(int setsize) {$/;"	f
+aeCreateFileEvent	kudp/ae.c	/^int aeCreateFileEvent(aeEventLoop *eventLoop, int fd, int mask,$/;"	f
+aeCreateTimeEvent	kudp/ae.c	/^long long aeCreateTimeEvent(aeEventLoop *eventLoop, long long milliseconds,$/;"	f
+aeDeleteEventLoop	kudp/ae.c	/^void aeDeleteEventLoop(aeEventLoop *eventLoop) {$/;"	f
+aeDeleteFileEvent	kudp/ae.c	/^void aeDeleteFileEvent(aeEventLoop *eventLoop, int fd, int mask)$/;"	f
+aeDeleteTimeEvent	kudp/ae.c	/^int aeDeleteTimeEvent(aeEventLoop *eventLoop, long long id)$/;"	f
+aeEventFinalizerProc	kudp/ae.h	/^typedef void aeEventFinalizerProc(struct aeEventLoop *eventLoop, void *clientData);$/;"	t
+aeEventLoop	kudp/ae.h	/^typedef struct aeEventLoop {$/;"	s
+aeEventLoop	kudp/ae.h	/^} aeEventLoop;$/;"	t	typeref:struct:aeEventLoop
+aeFileEvent	kudp/ae.h	/^typedef struct aeFileEvent {$/;"	s
+aeFileEvent	kudp/ae.h	/^} aeFileEvent;$/;"	t	typeref:struct:aeFileEvent
+aeFileProc	kudp/ae.h	/^typedef void aeFileProc(struct aeEventLoop *eventLoop, int fd, void *clientData, int mask);$/;"	t
+aeFiredEvent	kudp/ae.h	/^typedef struct aeFiredEvent {$/;"	s
+aeFiredEvent	kudp/ae.h	/^} aeFiredEvent;$/;"	t	typeref:struct:aeFiredEvent
+aeGetApiName	kudp/ae.c	/^char *aeGetApiName(void) {$/;"	f
+aeGetFileEvents	kudp/ae.c	/^int aeGetFileEvents(aeEventLoop *eventLoop, int fd) {$/;"	f
+aeGetSetSize	kudp/ae.c	/^int aeGetSetSize(aeEventLoop *eventLoop) {$/;"	f
+aeGetTime	kudp/ae.c	/^static void aeGetTime(long *seconds, long *milliseconds)$/;"	f	file:
+aeMain	kudp/ae.c	/^void aeMain(aeEventLoop *eventLoop) {$/;"	f
+aeProcessEvents	kudp/ae.c	/^int aeProcessEvents(aeEventLoop *eventLoop, int flags)$/;"	f
+aeResizeSetSize	kudp/ae.c	/^int aeResizeSetSize(aeEventLoop *eventLoop, int setsize) {$/;"	f
+aeSearchNearestTimer	kudp/ae.c	/^static aeTimeEvent *aeSearchNearestTimer(aeEventLoop *eventLoop)$/;"	f	file:
+aeSetBeforeSleepProc	kudp/ae.c	/^void aeSetBeforeSleepProc(aeEventLoop *eventLoop, aeBeforeSleepProc *beforesleep) {$/;"	f
+aeStop	kudp/ae.c	/^void aeStop(aeEventLoop *eventLoop) {$/;"	f
+aeTimeEvent	kudp/ae.h	/^typedef struct aeTimeEvent {$/;"	s
+aeTimeEvent	kudp/ae.h	/^} aeTimeEvent;$/;"	t	typeref:struct:aeTimeEvent
+aeTimeProc	kudp/ae.h	/^typedef int aeTimeProc(struct aeEventLoop *eventLoop, long long id, void *clientData);$/;"	t
+aeWait	kudp/ae.c	/^int aeWait(int fd, int mask, long long milliseconds) {$/;"	f
+all_arget	Makefile	/^all_arget=$(udp_client) $(udp_server) $(tcp_client) $(tcp_server)$/;"	m
+anetSetBlock	kudp/kudp_socket.c	/^int anetSetBlock(int fd, int non_block)$/;"	f
+anetUdp6Server	kudp/kudp_socket.c	/^int anetUdp6Server(const char* bindaddr, int port)$/;"	f
+anetUdpServer	kudp/kudp_socket.c	/^int anetUdpServer(const char* bindaddr, int port)$/;"	f
+apidata	kudp/ae.h	/^    void *apidata; \/* This is used for polling API specific data *\/$/;"	m	struct:aeEventLoop
+beforesleep	kudp/ae.h	/^    aeBeforeSleepProc *beforesleep;$/;"	m	struct:aeEventLoop
+bindaddr	kudp/kudp.h	/^    char    *bindaddr[BINDADDR_MAX];$/;"	m	struct:kudp_instance
+bindaddr_count	kudp/kudp.h	/^    int     bindaddr_count;$/;"	m	struct:kudp_instance
+buffer	kudp/ikcp.h	/^	char *buffer;$/;"	m	struct:IKCPCB
+clientData	kudp/ae.h	/^    void *clientData;									\/\/客户端数据$/;"	m	struct:aeFileEvent
+clientData	kudp/ae.h	/^    void *clientData;$/;"	m	struct:aeTimeEvent
+cmd	kudp/ikcp.h	/^	IUINT32 cmd;$/;"	m	struct:IKCPSEG
+cmd	simple/kudp_simple.h	/^    char    cmd;$/;"	m	struct:kudp_segment
+conv	kudp/ikcp.h	/^	IUINT32 conv, mtu, mss, state;$/;"	m	struct:IKCPCB
+conv	kudp/ikcp.h	/^	IUINT32 conv;$/;"	m	struct:IKCPSEG
+current	kudp/ikcp.h	/^	IUINT32 current, interval, ts_flush, xmit;$/;"	m	struct:IKCPCB
+cwnd	kudp/ikcp.h	/^	IUINT32 snd_wnd, rcv_wnd, rmt_wnd, cwnd, probe;$/;"	m	struct:IKCPCB
+data	kudp/ikcp.h	/^	char data[1];$/;"	m	struct:IKCPSEG
+dead_link	kudp/ikcp.h	/^	IUINT32 dead_link, incr;$/;"	m	struct:IKCPCB
+desIp	kudp/kudp_socket.h	/^    char* desIp;$/;"	m	struct:kudpSocket
+desPort	kudp/kudp_socket.h	/^    short desPort;$/;"	m	struct:kudpSocket
+epfd	kudp/ae_epoll.c	/^    int epfd;		\/\/epoll占用的fd$/;"	m	struct:aeApiState	file:
+events	kudp/ae.h	/^    aeFileEvent *events; \/* Registered events *\/$/;"	m	struct:aeEventLoop
+events	kudp/ae_epoll.c	/^    struct epoll_event *events;$/;"	m	struct:aeApiState	typeref:struct:aeApiState::epoll_event	file:
+fastack	kudp/ikcp.h	/^	IUINT32 fastack;$/;"	m	struct:IKCPSEG
+fastresend	kudp/ikcp.h	/^	int fastresend;$/;"	m	struct:IKCPCB
+fd	kudp/ae.h	/^    int fd;				\/\/事件句柄$/;"	m	struct:aeFiredEvent
+finalizerProc	kudp/ae.h	/^    aeEventFinalizerProc *finalizerProc;$/;"	m	struct:aeTimeEvent
+fired	kudp/ae.h	/^    aeFiredEvent *fired; \/* Fired events *\/$/;"	m	struct:aeEventLoop
+frg	kudp/ikcp.h	/^	IUINT32 frg;$/;"	m	struct:IKCPSEG
+head	kudp/kudp_socket.h	/^    iqueue_head         head;$/;"	m	struct:kudp_task
+id	kudp/ae.h	/^    long long id; \/* time event identifier. *\/$/;"	m	struct:aeTimeEvent
+ikcp_ack_get	kudp/ikcp.cpp	/^static void ikcp_ack_get(const ikcpcb *kcp, int p, IUINT32 *sn, IUINT32 *ts)$/;"	f	file:
+ikcp_ack_push	kudp/ikcp.cpp	/^static void ikcp_ack_push(ikcpcb *kcp, IUINT32 sn, IUINT32 ts)$/;"	f	file:
+ikcp_allocator	kudp/ikcp.cpp	/^void ikcp_allocator(void* (*new_malloc)(size_t), void (*new_free)(void*))$/;"	f
+ikcp_canlog	kudp/ikcp.cpp	/^static int ikcp_canlog(const ikcpcb *kcp, int mask)$/;"	f	file:
+ikcp_check	kudp/ikcp.cpp	/^IUINT32 ikcp_check(const ikcpcb *kcp, IUINT32 current)$/;"	f
+ikcp_create	kudp/ikcp.cpp	/^ikcpcb* ikcp_create(IUINT32 conv, void *user)$/;"	f
+ikcp_decode16u	kudp/ikcp.cpp	/^static inline const char *ikcp_decode16u(const char *p, unsigned short *w)$/;"	f	file:
+ikcp_decode32u	kudp/ikcp.cpp	/^static inline const char *ikcp_decode32u(const char *p, IUINT32 *l)$/;"	f	file:
+ikcp_decode8u	kudp/ikcp.cpp	/^static inline const char *ikcp_decode8u(const char *p, unsigned char *c)$/;"	f	file:
+ikcp_encode16u	kudp/ikcp.cpp	/^static inline char *ikcp_encode16u(char *p, unsigned short w)$/;"	f	file:
+ikcp_encode32u	kudp/ikcp.cpp	/^static inline char *ikcp_encode32u(char *p, IUINT32 l)$/;"	f	file:
+ikcp_encode8u	kudp/ikcp.cpp	/^static inline char *ikcp_encode8u(char *p, unsigned char c)$/;"	f	file:
+ikcp_encode_seg	kudp/ikcp.cpp	/^static char *ikcp_encode_seg(char *ptr, const IKCPSEG *seg)$/;"	f	file:
+ikcp_flush	kudp/ikcp.cpp	/^void ikcp_flush(ikcpcb *kcp)$/;"	f
+ikcp_free	kudp/ikcp.cpp	/^static void ikcp_free(void *ptr) {$/;"	f	file:
+ikcp_free_hook	kudp/ikcp.cpp	/^static void (*ikcp_free_hook)(void *) = NULL;$/;"	v	file:
+ikcp_getconv	kudp/ikcp.cpp	/^IUINT32 ikcp_getconv(const void *ptr)$/;"	f
+ikcp_input	kudp/ikcp.cpp	/^int ikcp_input(ikcpcb *kcp, const char *data, long size)$/;"	f
+ikcp_interval	kudp/ikcp.cpp	/^int ikcp_interval(ikcpcb *kcp, int interval)$/;"	f
+ikcp_log	kudp/ikcp.cpp	/^void ikcp_log(ikcpcb *kcp, int mask, const char *fmt, ...)$/;"	f
+ikcp_malloc	kudp/ikcp.cpp	/^static void* ikcp_malloc(size_t size) {$/;"	f	file:
+ikcp_malloc_hook	kudp/ikcp.cpp	/^static void* (*ikcp_malloc_hook)(size_t) = NULL;$/;"	v	file:
+ikcp_nodelay	kudp/ikcp.cpp	/^int ikcp_nodelay(ikcpcb *kcp, int nodelay, int interval, int resend, int nc)$/;"	f
+ikcp_output	kudp/ikcp.cpp	/^static int ikcp_output(ikcpcb *kcp, const void *data, int size)$/;"	f	file:
+ikcp_parse_ack	kudp/ikcp.cpp	/^static void ikcp_parse_ack(ikcpcb *kcp, IUINT32 sn)$/;"	f	file:
+ikcp_parse_data	kudp/ikcp.cpp	/^void ikcp_parse_data(ikcpcb *kcp, IKCPSEG *newseg)$/;"	f
+ikcp_parse_fastack	kudp/ikcp.cpp	/^static void ikcp_parse_fastack(ikcpcb *kcp, IUINT32 sn)$/;"	f	file:
+ikcp_parse_una	kudp/ikcp.cpp	/^static void ikcp_parse_una(ikcpcb *kcp, IUINT32 una)$/;"	f	file:
+ikcp_peeksize	kudp/ikcp.cpp	/^int ikcp_peeksize(const ikcpcb *kcp)$/;"	f
+ikcp_qprint	kudp/ikcp.cpp	/^void ikcp_qprint(const char *name, const struct IQUEUEHEAD *head)$/;"	f
+ikcp_recv	kudp/ikcp.cpp	/^int ikcp_recv(ikcpcb *kcp, char *buffer, int len)$/;"	f
+ikcp_release	kudp/ikcp.cpp	/^void ikcp_release(ikcpcb *kcp)$/;"	f
+ikcp_segment_delete	kudp/ikcp.cpp	/^static void ikcp_segment_delete(ikcpcb *kcp, IKCPSEG *seg)$/;"	f	file:
+ikcp_segment_new	kudp/ikcp.cpp	/^static IKCPSEG* ikcp_segment_new(ikcpcb *kcp, int size)$/;"	f	file:
+ikcp_send	kudp/ikcp.cpp	/^int ikcp_send(ikcpcb *kcp, const char *buffer, int len)$/;"	f
+ikcp_setmtu	kudp/ikcp.cpp	/^int ikcp_setmtu(ikcpcb *kcp, int mtu)$/;"	f
+ikcp_setoutput	kudp/ikcp.cpp	/^void ikcp_setoutput(ikcpcb *kcp, int (*output)(const char *buf, int len,$/;"	f
+ikcp_shrink_buf	kudp/ikcp.cpp	/^static void ikcp_shrink_buf(ikcpcb *kcp)$/;"	f	file:
+ikcp_update	kudp/ikcp.cpp	/^void ikcp_update(ikcpcb *kcp, IUINT32 current)$/;"	f
+ikcp_update_ack	kudp/ikcp.cpp	/^static void ikcp_update_ack(ikcpcb *kcp, IINT32 rtt)$/;"	f	file:
+ikcp_waitsnd	kudp/ikcp.cpp	/^int ikcp_waitsnd(const ikcpcb *kcp)$/;"	f
+ikcp_wnd_unused	kudp/ikcp.cpp	/^static int ikcp_wnd_unused(const ikcpcb *kcp)$/;"	f	file:
+ikcp_wndsize	kudp/ikcp.cpp	/^int ikcp_wndsize(ikcpcb *kcp, int sndwnd, int rcvwnd)$/;"	f
+ikcpcb	kudp/ikcp.h	/^typedef struct IKCPCB ikcpcb;$/;"	t	typeref:struct:IKCPCB
+incr	kudp/ikcp.h	/^	IUINT32 dead_link, incr;$/;"	m	struct:IKCPCB
+inline	kudp/ikcp.h	127;"	d
+interval	kudp/ikcp.h	/^	IUINT32 current, interval, ts_flush, xmit;$/;"	m	struct:IKCPCB
+ipfd_count	kudp/kudp.h	/^    int     ipfd_count;$/;"	m	struct:kudp_instance
+iqueue_add	kudp/ikcp.h	187;"	d
+iqueue_add_tail	kudp/ikcp.h	188;"	d
+iqueue_del	kudp/ikcp.h	189;"	d
+iqueue_del_init	kudp/ikcp.h	190;"	d
+iqueue_entry	kudp/ikcp.h	186;"	d
+iqueue_foreach	kudp/ikcp.h	198;"	d
+iqueue_foreach_entry	kudp/ikcp.h	201;"	d
+iqueue_head	kudp/ikcp.h	/^typedef struct IQUEUEHEAD iqueue_head;$/;"	t	typeref:struct:IQUEUEHEAD
+iqueue_init	kudp/ikcp.h	185;"	d
+iqueue_is_empty	kudp/ikcp.h	191;"	d
+iqueue_splice	kudp/ikcp.h	211;"	d
+iqueue_splice_init	kudp/ikcp.h	214;"	d
+isalive	kcp_server.c	/^char isalive = 1;$/;"	v
+kcp	kudp/kudp_socket.h	/^    ikcpcb              *kcp;$/;"	m	struct:kudp_task
+kcp_timer	kudp/kudp.c	/^int kcp_timer(struct aeEventLoop *l, long long id, void* data)$/;"	f
+kudp	kcp_server.c	/^int kudp()$/;"	f
+kudp	kudp/kudp.c	/^void kudp(int id, int mode)$/;"	f
+kudpSocket	kudp/kudp_socket.h	/^typedef struct kudpSocket$/;"	s
+kudpSocket	kudp/kudp_socket.h	/^}kudpSocket;$/;"	t	typeref:struct:kudpSocket
+kudp_clock	kcp_server.c	/^long kudp_clock()$/;"	f
+kudp_clock	kudp/kudp_timer.c	/^long kudp_clock()$/;"	f
+kudp_instance	kudp/kudp.h	/^struct kudp_instance$/;"	s
+kudp_main_loop	kudp/kudp.c	/^void kudp_main_loop()$/;"	f
+kudp_msleep	kcp_server.c	/^void kudp_msleep(unsigned long milsec)$/;"	f
+kudp_msleep	kudp/kudp_timer.c	/^void kudp_msleep(unsigned long milsec)$/;"	f
+kudp_segment	simple/kudp_simple.h	/^struct kudp_segment$/;"	s
+kudp_task	kudp/kudp_socket.h	/^struct kudp_task$/;"	s
+kudp_task_list	kudp/kudp.c	/^IQUEUE_HEAD(kudp_task_list);$/;"	v
+lastTime	kudp/ae.h	/^    time_t lastTime;     \/* Used to detect system clock skew *\/$/;"	m	struct:aeEventLoop
+len	kudp/ikcp.h	/^	IUINT32 len;$/;"	m	struct:IKCPSEG
+listenToPort	kudp/kudp.c	/^int listenToPort(int port, int* fds, int *count)$/;"	f
+logmask	kudp/ikcp.h	/^	int logmask;$/;"	m	struct:IKCPCB
+main	kcp_server.c	/^int main(int argc, char *argv[])$/;"	f
+main	tcp_client.c	/^int main(int argc, char *argv[])$/;"	f
+main	tcp_server.c	/^int main(int argc, char *argv[])$/;"	f
+main	udp_client.c	/^int main(int argc, char *argv[])$/;"	f
+main	udp_server.c	/^int main(int argc, char *argv[])$/;"	f
+mask	kudp/ae.h	/^    int mask;			 \/\/事件可以进行的操作$/;"	m	struct:aeFiredEvent
+mask	kudp/ae.h	/^    int mask; \/* one of AE_(READABLE|WRITABLE) *\/		\/\/标志位。标示是可读还是可写$/;"	m	struct:aeFileEvent
+maxfd	kudp/ae.h	/^    int maxfd;   \/* highest file descriptor currently registered *\/$/;"	m	struct:aeEventLoop
+mss	kudp/ikcp.h	/^	IUINT32 conv, mtu, mss, state;$/;"	m	struct:IKCPCB
+mss	simple/kudp_simple.h	/^const int mss = 1500;$/;"	v
+mtu	kudp/ikcp.h	/^	IUINT32 conv, mtu, mss, state;$/;"	m	struct:IKCPCB
+next	kudp/ae.h	/^    struct aeTimeEvent *next;$/;"	m	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent
+next	kudp/ikcp.h	/^	struct IQUEUEHEAD *next, *prev;$/;"	m	struct:IQUEUEHEAD	typeref:struct:IQUEUEHEAD::IQUEUEHEAD
+nocwnd	kudp/ikcp.h	/^	int nocwnd, stream;$/;"	m	struct:IKCPCB
+node	kudp/ikcp.h	/^	struct IQUEUEHEAD node;$/;"	m	struct:IKCPSEG	typeref:struct:IKCPSEG::IQUEUEHEAD
+nodelay	kudp/ikcp.h	/^	IUINT32 nodelay, updated;$/;"	m	struct:IKCPCB
+nrcv_buf	kudp/ikcp.h	/^	IUINT32 nrcv_buf, nsnd_buf;$/;"	m	struct:IKCPCB
+nrcv_que	kudp/ikcp.h	/^	IUINT32 nrcv_que, nsnd_que;$/;"	m	struct:IKCPCB
+nsnd_buf	kudp/ikcp.h	/^	IUINT32 nrcv_buf, nsnd_buf;$/;"	m	struct:IKCPCB
+nsnd_que	kudp/ikcp.h	/^	IUINT32 nrcv_que, nsnd_que;$/;"	m	struct:IKCPCB
+output	kudp/ikcp.h	/^	int (*output)(const char *buf, int len, struct IKCPCB *kcp, void *user);$/;"	m	struct:IKCPCB
+prev	kudp/ikcp.h	/^	struct IQUEUEHEAD *next, *prev;$/;"	m	struct:IQUEUEHEAD	typeref:struct:IQUEUEHEAD::
+probe	kudp/ikcp.h	/^	IUINT32 snd_wnd, rcv_wnd, rmt_wnd, cwnd, probe;$/;"	m	struct:IKCPCB
+probe_wait	kudp/ikcp.h	/^	IUINT32 ts_probe, probe_wait;$/;"	m	struct:IKCPCB
+processTimeEvents	kudp/ae.c	/^static int processTimeEvents(aeEventLoop *eventLoop) {$/;"	f	file:
+protocol	kudp/kudp_socket.h	/^    int protocol;$/;"	m	struct:kudpSocket
+rcv_buf	kudp/ikcp.h	/^	struct IQUEUEHEAD rcv_buf;$/;"	m	struct:IKCPCB	typeref:struct:IKCPCB::IQUEUEHEAD
+rcv_nxt	kudp/ikcp.h	/^	IUINT32 snd_una, snd_nxt, rcv_nxt;$/;"	m	struct:IKCPCB
+rcv_queue	kudp/ikcp.h	/^	struct IQUEUEHEAD rcv_queue;$/;"	m	struct:IKCPCB	typeref:struct:IKCPCB::IQUEUEHEAD
+rcv_wnd	kudp/ikcp.h	/^	IUINT32 snd_wnd, rcv_wnd, rmt_wnd, cwnd, probe;$/;"	m	struct:IKCPCB
+resendts	kudp/ikcp.h	/^	IUINT32 resendts;$/;"	m	struct:IKCPSEG
+rfileProc	kudp/ae.h	/^    aeFileProc *rfileProc;								\/\/写文件回调函数$/;"	m	struct:aeFileEvent
+rmt_wnd	kudp/ikcp.h	/^	IUINT32 snd_wnd, rcv_wnd, rmt_wnd, cwnd, probe;$/;"	m	struct:IKCPCB
+rto	kudp/ikcp.h	/^	IUINT32 rto;$/;"	m	struct:IKCPSEG
+rx_minrto	kudp/ikcp.h	/^	IINT32 rx_rttval, rx_srtt, rx_rto, rx_minrto;$/;"	m	struct:IKCPCB
+rx_rto	kudp/ikcp.h	/^	IINT32 rx_rttval, rx_srtt, rx_rto, rx_minrto;$/;"	m	struct:IKCPCB
+rx_rttval	kudp/ikcp.h	/^	IINT32 rx_rttval, rx_srtt, rx_rto, rx_minrto;$/;"	m	struct:IKCPCB
+rx_srtt	kudp/ikcp.h	/^	IINT32 rx_rttval, rx_srtt, rx_rto, rx_minrto;$/;"	m	struct:IKCPCB
+server	kudp/kudp.h	/^struct kudp_instance server;$/;"	v	typeref:struct:kudp_instance
+setsize	kudp/ae.h	/^    int setsize; \/* max number of file descriptors tracked *\/$/;"	m	struct:aeEventLoop
+size	simple/kudp_simple.h	/^    short   size;$/;"	m	struct:kudp_segment
+sn	kudp/ikcp.h	/^	IUINT32 sn;$/;"	m	struct:IKCPSEG
+snd_buf	kudp/ikcp.h	/^	struct IQUEUEHEAD snd_buf;$/;"	m	struct:IKCPCB	typeref:struct:IKCPCB::IQUEUEHEAD
+snd_nxt	kudp/ikcp.h	/^	IUINT32 snd_una, snd_nxt, rcv_nxt;$/;"	m	struct:IKCPCB
+snd_queue	kudp/ikcp.h	/^	struct IQUEUEHEAD snd_queue;$/;"	m	struct:IKCPCB	typeref:struct:IKCPCB::IQUEUEHEAD
+snd_una	kudp/ikcp.h	/^	IUINT32 snd_una, snd_nxt, rcv_nxt;$/;"	m	struct:IKCPCB
+snd_wnd	kudp/ikcp.h	/^	IUINT32 snd_wnd, rcv_wnd, rmt_wnd, cwnd, probe;$/;"	m	struct:IKCPCB
+sockaddr	kudp/kudp_socket.h	/^    struct sockaddr_in  sockaddr;$/;"	m	struct:kudpSocket	typeref:struct:kudpSocket::sockaddr_in
+socketfd	kudp/kudp_socket.h	/^    int socketfd;$/;"	m	struct:kudpSocket
+srcIp	kudp/kudp_socket.h	/^    char* srcIp;$/;"	m	struct:kudpSocket
+ssthresh	kudp/ikcp.h	/^	IUINT32 ts_recent, ts_lastack, ssthresh;$/;"	m	struct:IKCPCB
+state	kudp/ikcp.h	/^	IUINT32 conv, mtu, mss, state;$/;"	m	struct:IKCPCB
+std	kcp_server.c	/^using namespace std;$/;"	v
+stop	kudp/ae.h	/^    int stop;$/;"	m	struct:aeEventLoop
+stream	kudp/ikcp.h	/^	int nocwnd, stream;$/;"	m	struct:IKCPCB
+tasklist	kcp_server.c	/^vector<task>     tasklist;$/;"	v
+tcp_client	Makefile	/^tcp_client=tcp_client$/;"	m
+tcp_server	Makefile	/^tcp_server=tcp_server$/;"	m
+timeEventHead	kudp/ae.h	/^    aeTimeEvent *timeEventHead;$/;"	m	struct:aeEventLoop
+timeEventNextId	kudp/ae.h	/^    long long timeEventNextId;$/;"	m	struct:aeEventLoop
+timeProc	kudp/ae.h	/^    aeTimeProc *timeProc;								  \/\/定时器回调$/;"	m	struct:aeTimeEvent
+ts	kudp/ikcp.h	/^	IUINT32 ts;$/;"	m	struct:IKCPSEG
+ts_flush	kudp/ikcp.h	/^	IUINT32 current, interval, ts_flush, xmit;$/;"	m	struct:IKCPCB
+ts_lastack	kudp/ikcp.h	/^	IUINT32 ts_recent, ts_lastack, ssthresh;$/;"	m	struct:IKCPCB
+ts_probe	kudp/ikcp.h	/^	IUINT32 ts_probe, probe_wait;$/;"	m	struct:IKCPCB
+ts_recent	kudp/ikcp.h	/^	IUINT32 ts_recent, ts_lastack, ssthresh;$/;"	m	struct:IKCPCB
+udp_client	Makefile	/^udp_client=udp_client$/;"	m
+udp_client_obj	Makefile	/^udp_client_obj=udp_client.o$/;"	m
+udp_output	kudp/kudp_socket.c	/^int udp_output(const char* buf, int len, ikcpdb* kcp, void* user)$/;"	f
+udp_server	Makefile	/^udp_server=udp_server$/;"	m
+una	kudp/ikcp.h	/^	IUINT32 una;$/;"	m	struct:IKCPSEG
+updated	kudp/ikcp.h	/^	IUINT32 nodelay, updated;$/;"	m	struct:IKCPCB
+user	kudp/ikcp.h	/^	void *user;$/;"	m	struct:IKCPCB
+version	simple/kudp_simple.h	/^    char    version;$/;"	m	struct:kudp_segment
+wfileProc	kudp/ae.h	/^    aeFileProc *wfileProc;								\/\/读文件回调函数$/;"	m	struct:aeFileEvent
+when_ms	kudp/ae.h	/^    long when_ms; \/* milliseconds *\/$/;"	m	struct:aeTimeEvent
+when_sec	kudp/ae.h	/^    long when_sec; \/* seconds *\/$/;"	m	struct:aeTimeEvent
+wnd	kudp/ikcp.h	/^	IUINT32 wnd;$/;"	m	struct:IKCPSEG
+writelog	kudp/ikcp.h	/^	void (*writelog)(const char *log, struct IKCPCB *kcp, void *user);$/;"	m	struct:IKCPCB
+xmit	kudp/ikcp.h	/^	IUINT32 current, interval, ts_flush, xmit;$/;"	m	struct:IKCPCB
+xmit	kudp/ikcp.h	/^	IUINT32 xmit;$/;"	m	struct:IKCPSEG
